@@ -1,0 +1,214 @@
+@font-face{
+    font-family: "Titulos";
+    src: url("fonts/AlegreyaSansSC-Regular.ttf"), url("../fonts/AlegreyaSansSC-Regular.eot"), url("../fonts/AlegreyaSansSC-Regular.woff"), url("../fonts/AlegreyaSansSC-Regular.woff2"), url("../fonts/AlegreyaSansSC-Regular.svg");
+}
+
+@font-face{
+    font-family: "Parrafos";
+    src: url("../fonts/OpenSans-CondLight.ttf"), url("../fonts/OpenSans-CondLight.eot"), url("../fonts/OpenSans-CondLight.woff"), url("../fonts/OpenSans-CondLight.woff2"), url("../fonts/OpenSans-CondLight.svg");
+}
+
+
+body{
+	
+}
+
+.menu-perfil img{
+	margin-left: 15px;
+	margin-top: -5px;
+}
+.menu-perfil:hover {
+	border-radius: 5px;
+	border: solid orange;
+	height: 47px;
+	border-width: 0.9px;
+	transition: 1.5;
+}
+/*---------------------Icone Home------------------*/
+.icon-home {
+	font-size: 50px;
+	color: #c33030;
+	text-align: center;
+}
+.titulo-botao{
+	margin-top: 20px;
+}
+/*-----------------------Formulário de cadastro----------------*/
+.cadastro{
+	margin-top: 10px;
+	background-color: #cbbcf5;
+	border-radius: 5px;
+	-webkit-box-shadow: -13px 20px 15px -14px rgba(0,0,0,0.75);
+	-moz-box-shadow: -13px 20px 15px -14px rgba(0,0,0,0.75);
+	box-shadow: -13px 20px 15px -14px rgba(0,0,0,0.75);
+}
+.cadastro hr{
+	border-top: 1px solid rgba(255, 255, 255, 1);
+}
+.but-cad .btn{
+	background-color:  #183153;
+	border-color: #183153;
+}
+.but-cad:hover .btn{
+	background-color: #37c9c9;
+	border-color: #f9e710;
+	color: #000;
+}
+.titulo-formulario{
+	color: #d33737;
+}
+h2{
+	color: #d33737;
+}
+.but-mais {
+	margin-top: -32px; 
+	margin-left: 246px;
+	margin-bottom: -40px;
+	font-size: 18px;
+}
+
+/*-----------------Formulario de Operação-----------------*/
+.but-op {
+	margin-top: 30px;
+}
+.alerta-sucesso {
+	margin-top: -28px;
+	margin-left: 35px;
+}
+.alerta-excluir {
+	margin-top: -28px;
+	margin-left: 35px;
+	color: red;
+}
+.alerta-erro {
+	margin-top: -28px;
+	margin-left: 35px;
+}
+
+/*------------------- Icone do cadastrar operação lista--------------*/
+.list-icon i{
+	text-decoration: none;
+	color: #000;
+	margin-top: 12px;
+	margin-left: -80px;
+	font-size: 20px;
+}
+.list-icon:hover i{
+	color: orange;
+}
+.action-icon i{
+	font-size: 20px;
+}
+.action-icon:hover i{
+	cursor: pointer;
+	filter: drop-shadow(0 0 1rem #7d8a97);
+	color: #365574;
+}
+/*----------------------------------Detalhes Peca------------------*/
+.titulo-peca {
+	margin-top: -4px;
+	font-size: 20px;
+	margin-left: -70px;
+	font-weight: bold;
+}
+.campo-peca {
+	margin-left: -60px;
+	margin-top: -5px;
+}
+.campo-peca strong{
+	font-size: 20px;
+}
+.tab-itens{
+	margin-top: -55px;
+}
+.tab-itens td{
+	padding: 7px;
+}
+
+/*--------------------------Fabricao--------------------------*/
+.titulo-of p{
+	font-size: 22px;
+}
+.cabecalho-of p{
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: silver;
+}
+/*---------------------------MODAL ANEXO-----------------------*/
+.modal-anexo {
+	width: 260%;
+	margin-left: -1440px;
+	margin-top: -25px;
+	margin-bottom: -25px;
+}
+.modal-anexo .modal-body {
+	margin-top: -25px;
+	margin-left: -15px;
+	margin-bottom: -18px;
+}
+
+
+/*---------------------------- Menssagem de Sucesso no cadastro------------*/
+#msg-success {
+	padding-bottom: 15px;
+}
+
+/*----------------------------Detalhes operação-------------------------*/
+.titulo-op {
+	margin-top: 4px;
+	font-size: 20px;
+	margin-left: -35px;
+}
+.registro {
+	font-size: 18px;
+}
+
+/*----------------------------------Font Menu-------------------------------*/
+.menu {
+	font-family: "Titulos" !important;
+	font-size: 18px;
+	font-weight: 400;
+}
+.menu-hover:hover {
+/*	background-color: orange;*/
+	border-radius: 5px;
+	height: 45px;
+	border: solid orange;
+	border-width: 0.9px;
+	transition: 1.5;
+}
+/*--------------------------------Icones de Cadastros-------------------------*/
+.icon-cad img{
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	display: block;
+}
+.top-card {
+	background-color: #efefef;
+	border-radius: 5px;
+}
+.bottom-card {
+	margin-top: 20px;
+	background-color: #d33737;
+	border-color: #cc0000;
+	width: 253px;
+	height: 80px;
+	margin-left: -20px;
+	margin-bottom: -20px;
+	border-radius: 0 0 5px 5px;
+}
+.bottom-card:hover {
+	background-color: #efa6a6;
+	border-color: #efa6a6;
+	color: #cc0000;
+}
+.bottom-card strong{
+	font-weight: normal;
+	font-size: 18px;
+	padding: 20px;
+}
